@@ -1,0 +1,23 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+secrets.json
+
+# Submitted text, generated documents, and job state
+work/
+outputs/
+*-job.json
+humanized.txt
+*.docx
+*.pdf
+
+# Python and operating system artifacts
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+Thumbs.db
